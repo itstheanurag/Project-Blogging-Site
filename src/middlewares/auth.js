@@ -38,7 +38,7 @@ const authorization = function (req,res,next){
 }
 
 
-const authentication = async function (req,res,next){
+const authentication = function (req,res,next){
     try{
         let token = req.headers['x-api-key']
         
